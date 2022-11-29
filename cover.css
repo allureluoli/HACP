@@ -131,6 +131,7 @@ body {
 .mastfoot {
   color: #10c7f7; /* IE8 proofing */
   color: rgba(255, 255, 255, .5);
+    position: absolute;
 }
 
 
@@ -147,12 +148,14 @@ body {
   .mastfoot {
     position: fixed;
     bottom: 0;
+      position: absolute;
   }
   .site-wrapper-inner {
     vertical-align: middle; /* Start the vertical centering */
   }
   .masthead,
   .mastfoot,
+    position: absolute;
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
@@ -162,6 +165,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
+      position: absolute;
     width: 700px;
   }
 }
