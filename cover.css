@@ -62,7 +62,7 @@ body {
 
 /* 首页图片 */
 .head_images{
-    transform:scale(2.1,2.1)
+    transform:scale(1,1)
 }
 
 /*
@@ -72,6 +72,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 
 .masthead-nav > li {
   display: inline-block;
